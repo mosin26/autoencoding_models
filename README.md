@@ -1,5 +1,10 @@
 # Autoencoding Models
 
+![autoencoder_light](https://user-images.githubusercontent.com/16051397/149675837-20a669e5-9dc4-49d8-a0e1-29f2d2d1af89.png#gh-light-mode-only)
+
+![autoencoder_dark](https://user-images.githubusercontent.com/16051397/149675856-209c0474-f812-4bf0-b0b7-b8b61ca574db.png#gh-dark-mode-only)
+
+
 This repository contains configuration files of different autoencoders used in our anomaly detection experiments.
 
 Load and train the models as the following:
