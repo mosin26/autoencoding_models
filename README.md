@@ -2,7 +2,7 @@
 
 This repository contains configuration files of different autoencoders used in our anomaly detection experiments.
 
-Load models as the following:
+Load and train the models as the following:
 
 ```python
 import json
@@ -13,6 +13,9 @@ with open( 'configs/model.json', 'r') as f:
     json_config = json.load(f)
  
 autoencoder = keras.models.model_from_json(json_config)
+
+autoencoder.compile(optimizer='adam', loss='binary_crossentropy')
+autoencoder.fit(train_data, epochs=1000)
 ```
 
 Please, refer to the table below for model namings:
