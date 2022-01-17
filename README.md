@@ -12,6 +12,7 @@ You can load and train the models as the following:
 
 ```python
 import json
+
 from tensorflow import keras
 
 
