@@ -15,7 +15,7 @@ import json
 from tensorflow import keras
 
 
-with open( 'configs/model.json', 'r') as f:
+with open('./configs/model.json', 'r') as f:
     json_config = json.load(f)
  
 autoencoder = keras.models.model_from_json(json_config)
