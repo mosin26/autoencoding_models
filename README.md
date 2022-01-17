@@ -6,7 +6,7 @@
 
 ## Keras Autoencoders
 
-This repository contains configuration files for different Keras autoencoder models.
+This repository contains configuration files for different Keras autoencoding models.
 
 You can load and train the models as the following:
 
