@@ -4,6 +4,7 @@
 
 ![autoencoder_dark](https://user-images.githubusercontent.com/16051397/149675856-209c0474-f812-4bf0-b0b7-b8b61ca574db.png#gh-dark-mode-only)
 
+## Keras Autoencoders
 
 This repository contains configuration files of different autoencoders used in our anomaly detection experiments.
 
