@@ -6,7 +6,7 @@
 
 ## Keras Autoencoders
 
-This repository contains configuration files for different Keras autoencoding models. Currently, there are only convolutional autoencoders available. More models are going to be introduced here, including variational autoencoders.
+This repository contains configuration files for different Keras autoencoding models. Currently, only convolutional autoencoders are available. More models are going to be introduced here, including variational autoencoders.
 
 You can load and train the models as the following:
 
